@@ -10,6 +10,7 @@ El formato que elegi es que envie un unico paquete en lugar de transmitir palabr
 
 Al recibir el paquete, el servidor reconstruye el String original a partir de los bytes recibidos (String str = new String(packet1.getData(), 0, packet1.getLength());) y divide el array con un .split("  ") despues compara el tamaño de cada elemento con .length() para saber cual es la palabra mas larga
 
+
 ## Declaracion de IA
 
 Use gemini para que me guiara por el ejercicio cuando no sabia como continuar.

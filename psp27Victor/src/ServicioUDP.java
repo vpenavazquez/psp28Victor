@@ -45,8 +45,10 @@ public class ServicioUDP {
 
         }catch (IOException e){
             System.out.println(e.getMessage());
+
         }
     }
+
 
 
 
